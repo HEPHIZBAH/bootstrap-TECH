@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+.overall-bg{
+    background-color: rgb(0, 0, 0);
+    color: rgba(0, 255, 255, 0.815);
+}
+.mlogo{
+    color: orange;
+}
+.text-llight{
+    color: aliceblue;
+}
+.landimg{
+    background-image: url('zhenyu-luo-sHtvfNavkQk-unsplash.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.intro {
+    color: rgba(0, 255, 255, 0.69);
+    font-family: 'Times New Roman';
+    padding-top:130px;
+    padding-left: 80px;
+    letter-spacing: 3px;
+    line-height: 60px;
+}
+h2 {
+    font-size: 50px;
+}
+.existdiv {
+    color: black;
+    font-family: Times;
+    padding-top:130px;
+    padding-left: 60%;
+    letter-spacing: 10px;
+    line-height: 100px;
+    font-weight: bolder;
+}
+.endimg {
+    background-image: url('endimg.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* Even Smaller devices*/
+    .intro {
+        padding-left: 30px;
+    }
+    .endimg {
+        background-image: url('endimg.jpg');
+        background-size: cover;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 50vh;
+    }
+    .existdiv {
+        color: aqua;
+        font-family: Times;
+        padding-top:80px;
+        padding-left: 10%;
+        letter-spacing: 5px;
+        line-height: 50px;
+        font-weight: bolder;
+    }
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 750px) {
+    /* Even Smaller devices*/
+    .existdiv {
+        color: aqua;
+        font-family: Times;
+        padding-top:120px;
+        padding-left: 50%;
+        letter-spacing: 5px;
+        line-height: 50px;
+        font-weight: bolder;
+    }
+}
